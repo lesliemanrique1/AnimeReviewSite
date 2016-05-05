@@ -1,0 +1,52 @@
+#synopsis 
+{
+	font-size: 18px; 
+}
+
+form 
+{
+	margin:0 auto
+}
+
+#review_input {
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+#error 
+{
+	color: rgb(255,0,0);
+}
+
+#sort_button{
+	padding-left: 950px;
+
+
+}
+
+.jumbotron{
+     background: url('kenshin.jpg') no-repeat center center ;
+     background-size: 1300px 700px;
+     min-height: 600px;
+}
+
+
+#About
+{
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	background-color: rgb(204, 0, 0);
+	font-style: bold;
+
+	
+
+}
+
+#About_body
+{
+	text-align: center;
+	font-size: 30px;
+	
+}

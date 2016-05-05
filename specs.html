@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title> Specifications </title> 
+		<style>
+			#example ul li
+			{
+				list-style-type: none;
+			}
+		</style>
+
+	</head> 
+	<h1> Specifications <h1>
+	<body>
+		<h2> Overview </h2>
+		<p> For my LAMP project, I will design an anime review website where registered users will be 
+able to rate and review japanese anime shows. They will also be able to look up general information about the 
+anime, such as the director, network, publisher and what source the anime is based on. </p>
+		<p> This website will be targeted to youthful audiences that watch anime and read manga. It 
+will also helpt to attract more people to this form of media and to engage a community. 
+		<h2> Navigation Bar </h2> 
+		<p> I will add general design features such as a logo and a navigation bar. The logo will have 
+the name of the website Anime Battosai. The navigation bar will allow you to go to the Home page, About page 
+the List and the Contact page. The List is what I will mainly focus on.
+Using PHP and MySQL, I will add a second navigation bar labeled A - Z where the user will be able to quickly 
+access their anime by letter and search through the animes that start with the same letter. I may or may not 
+add a search bar functionality. </p> 
+		<h2> Sort By </h2> 
+		<p> The Sort By feature will allow a second way for a user to see how the anime list is 
+displayed. If the user selects Top-Rated the anime list will be sorted by the “star rating”. Users will be 
+given the ability to give animes a star rating which allows other users to better identify how “good” the anime 
+is. A maximum of 5 stars can be given to an anime and a minimum of 1 star can be given. The list displays the 
+average of all the star ratings given to the anime by the user reviewers. </p> 
+		<p> Users will also be able to view the list in alphabetical or reverse alphabetical order. And 
+sort the list by the number of reviews they have. The titles with the most amount of reviews will be at the top 
+of the list. </p>
+		<p> The final sorting option is a to present the anime list by genres using PHP and mySQL 
+queries.  It will appear similar to the following with the number of user reviews and average star ratings.</p>
+		<div id = "example"> 
+			<ul>
+				<li> <b>Action</b> </li> 
+				<li> Inuyasha </li>
+				<li> Rurouni Kenshin </li>
+				
+				<li> <b>Comedy</b> </li> 
+				<li> Ouran High School Host Club </li>
+				<li> The Devil is a Part-Timer! </li>
+
+				<li> <b>Romance</b> </li>
+				<li> Ouran High School Host Club <li> 
+			</ul>
+		</div> 
+		
+		<p> See <a href = "#f1"> Figure 1</a> for a sketch of the website layout for the Anime List 
+segment </p> 
+
+		  
+	
+		<h2> The Anime Profile </h2> 
+		
+		<p> The next part is the anime profile. This includes the Information about the anime like the image - thumbnail- and the synopsis. At the top of the page the title will be included with the average user star rating. Below that I will add the image and synopsis. Next, the Genre’s. Most animes fit into more than one genre so there will be a list of hyperlinks users will click on that will take them to a list of animes of that genre. This will be identical to the sort by genre attribute from the list page only that it will automatically scroll the user to the genre name they clicked on. Afterwards there will be some general information about the anime such as production, seasons #of episodes. And afterwards information about the manga/ light novel or video game the anime is based upon. </p>
+		<p> The last piece is the review section. Users will be able to see the reviews of registered users which include the username, the date posted, star rating and a comment. For registered users, there will be a functionality that allows them to add comments to the anime profile. Such will be a button that says Add Comment that links to a submit form similar to the following: </p> 
+		<p> <b>Star Rating: </b> 5
+		<p> <b> Comment: </b> This anime is great! </p> 
+		<p> PHP will be used to access user data such as date posted and if the user is a registered user or not. Also PHP will be used to gather the input from the submit form and add it to the mySQL database thus publishing it onto the anime profile. </p> 
+		</p> See <a href = "#f2"> Figure 2</a> for a sketch of the website layout for the Anime Profile segment </p> 
+
+		<h2> Figures </h2>
+		<h3 id = "f1"> Figure 1 </h3>
+		<img src = "report1.jpg" alt = "Figure 1" style="width:500px;height:660px;"> 
+		<h3 id = "f2"> Figure 2 </h3>
+		<img src = "report2.jpg" alt = "Figure 2" style="width:500px;height:660px;"> 
+
+
+	</bold> 
+
+</html> 
+
